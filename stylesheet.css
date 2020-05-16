@@ -18,8 +18,14 @@ html, body {
 h1 {
     font-size: 24px;
     margin: 0;
+    color: #212121;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+h3{
+    color: #454545;
+}
+
 p {
     font-size: 17px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
