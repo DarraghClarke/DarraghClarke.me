@@ -1,34 +1,45 @@
 .Heading {
-    font-size: 3em;
-   color: #F0F3BD;
+    color: #F0F3BD;
 }
+
+.paragraph {
+    color: #454545;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
 html, body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 h1 {
-    margin:0;
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+
 .caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #F0F3BD;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #F0F3BD;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 .caption span.border {
-  background-color: #111;
-  color: #F0F3BD;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    background-color: #3f4545;
+    color: #F0F3BD;
+    padding: 10px 20px 10px 20px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    backdrop-filter: blur(5px);
 }
 
-
-.body{
- background-color: #05668D;
-}
 .parallax {
 
     /* Set a specific height */
@@ -40,36 +51,38 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#second{
-   height:200px;
-   background-color:#00A896;
-   font-size:36px;
+
+#second {
+    height: 200px;
+    background-color: #00A896;
+    font-size: 36px;
 }
 
-#first{
-      height:200px;
-      background-color:#05668D;
-      font-size:36px;
+#first {
+    height: 200px;
+    background-color: #05668D;
+    font-size: 36px;
 }
-
 
 
 .bg-1, .bg-2, .bg-3 {
-  height:500px;
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 450px;
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
 .bg-1 {
-  background-image: url("bgimg-1 alt.jpg");
-  min-height: 100%;
+    background-image: url("Images/floralbg1.jpg");
+    min-height: 100%;
 }
-.bg-2 {
-  background-image: url("cluedo-min.png");
 
-  min-height: 100%;
+.bg-2 {
+    background-image: url("Images/Cluedo-min.png");
+
+    min-height: 100%;
 }
