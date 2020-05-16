@@ -16,10 +16,14 @@ html, body {
 }
 
 h1 {
+    font-size: 24px;
     margin: 0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
+p {
+    font-size: 17px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
 .caption {
     position: absolute;
