@@ -7,10 +7,6 @@ const Blog = ({posts, title, description, ...props }) => {
       <>
         <Layout pageTitle={title} description={description}>
           <h1 className="title">Blog</h1>
-
-          <p className="description">
-            Welcome
-          </p>
           <main>
             <PostList posts={posts} />
           </main>

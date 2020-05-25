@@ -8,19 +8,19 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+          <script src="https://kit.fontawesome.com/7671c956b4.js" crossOrigin="anonymous"></script>
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+ 
 
         html,
         body {
           margin: 0;
           padding: 0;
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-            sans-serif;
+          font-family: 'Roboto', sans-serif;
           color: #445566;
         }
 
@@ -45,7 +45,14 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           justify-content: center;
           align-items: center;
         }
-
+        .fa-github-square {
+        color: black;
+        }
+        p{        
+          font-size: 20px;
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+         }
         footer {
           width: 100%;
           height: 100px;
